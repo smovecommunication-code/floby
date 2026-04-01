@@ -28,7 +28,6 @@ export const platformOrder = [
 
 export type PlatformKey = (typeof platformOrder)[number];
 
-// ✅ CORRECTION IMPORTANTE : Partial
 export const platformImages: Partial<Record<PlatformKey, StaticImageData>> = {
   spotify: spotifyImg,
   deezer: deezerImg,
@@ -72,46 +71,50 @@ export type Artist = {
 
 export const artists: Artist[] = [
   {
-    slug: "smarty",
-    name: "Smarty",
-    tagline: "Voix engagée du rap burkinabè",
+    slug: "floby",
+    name: "Floby",
+    tagline: "La tradition burkinabè en version moderne",
     shortBio:
-      "Artiste burkinabè reconnu pour ses textes conscients, son identité forte et son impact majeur sur la scène musicale africaine.",
+      "Floby est une figure majeure de la musique burkinabè, reconnu pour un univers qui mêle sonorités traditionnelles, énergie moderne et forte identité culturelle.",
     story:
-      "Smarty est l’une des figures les plus marquantes du rap au Burkina Faso. Son univers mêle engagement, profondeur, élégance artistique et puissance scénique. Cette page NFC met en avant son identité, son image et ses principales plateformes d’écoute dans une expérience mobile premium.",
+      "Floby s’est imposé comme l’un des artistes les plus marquants du Burkina Faso grâce à une musique enracinée dans la culture locale et ouverte aux sonorités contemporaines. Son identité artistique associe émotion, élégance scénique et modernité, pour offrir une expérience musicale forte, populaire et authentique.",
 
     coverImage: cover,
-    coverAlt: "Photo de couverture de Smarty",
+    coverAlt: "Photo de couverture de Floby",
 
     profileImage: profile,
-    profileAlt: "Photo de profil de Smarty",
+    profileAlt: "Photo de profil de Floby",
 
     artworkImage: artwork,
-    artworkAlt: "Illustration artistique de Smarty",
+    artworkAlt: "Illustration artistique de Floby",
 
     ctaLabel: "Écouter maintenant",
-    ctaUrl: "https://music.apple.com/artist/smarty",
+    ctaUrl: "https://open.spotify.com/artist/3BiOLsEaogXBuSwGdhgNWc",
 
     featuredRelease: {
-      title: "Smarty · Artiste officiel",
-      subtitle: "Retrouve sa musique sur les plateformes de streaming"
+      title: "Floby · Artiste officiel",
+      subtitle: "Découvre son univers sur les plateformes de streaming"
     },
 
-    contactEmail: "contact@smarty.bf",
+    contactEmail: "contact@floby.bf",
 
     secondaryNetworks: [
-      { label: "Instagram", url: "https://www.instagram.com/" },
-      { label: "Facebook", url: "https://www.facebook.com/" }
+      { label: "Facebook", url: "https://www.facebook.com/flobyofficiel/" },
+      {
+        label: "YouTube",
+        url: "https://www.youtube.com/channel/UCngSrQijTyY5hYEr47qOWHg"
+      }
     ],
 
     links: {
-      appleMusic: "https://music.apple.com/artist/smarty",
-      spotify: "https://open.spotify.com/artist/2Yk",
-      deezer: "https://www.deezer.com/artist/124"
+      spotify: "https://open.spotify.com/artist/3BiOLsEaogXBuSwGdhgNWc",
+      appleMusic: "https://music.apple.com/ga/artist/floby/383174065",
+      youtube: "https://www.youtube.com/channel/UCngSrQijTyY5hYEr47qOWHg",
+      facebook: "https://www.facebook.com/flobyofficiel/"
     },
 
     theme: {
-      primary: "#d4af37",
+      primary: "#d4a017",
       secondary: "#0b0b0f",
       accent: "#f59e0b",
       surface: "rgba(18, 18, 24, 0.72)"
