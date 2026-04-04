@@ -1,4 +1,4 @@
-// File: C:\Users\zclov\Downloads\smovecom\app\layout.tsx
+// File: C:\Users\zclov\Downloads\floby\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
